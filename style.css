@@ -1,0 +1,245 @@
+/* Global styling */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* Pink row styling */
+.sec-1-background-color {
+    background-color: #FFDAB9;
+}
+
+/* Logo positioning and size */
+.sec-1-logo-postion img {
+    width: 15%;
+    margin-top: 2.5%;
+}
+
+/* Row container styling */
+.sec-1-container-row {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* Text container styling */
+.sec-1-text-container {
+    width: 65%;
+    padding-left: 20px;
+    float: right;
+}
+
+/* Image container styling */
+.sec-1-image-container {
+    width: 35%;
+    overflow: hidden;
+}
+
+/* Image styling */
+.sec-1-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Headline text styling */
+.sec-1-headline-text {
+    margin-top: 15%;
+}
+
+/* Headline H1 styling */
+.sec-1-headline-text h1 {
+    font-size: 4em;
+    color: #ED452B;
+    margin-bottom: 2.5%;
+}
+
+/* Headline P styling */
+.sec-1-headline-text p {
+    font-size: 2em;
+}
+
+/* Circle button styling */
+.sec-1-circle-btn {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-size: 16px;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #ED452B;
+    border: 2px solid white;
+}
+
+/* Button positioning */
+.sec-1-btn-postion {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+/* Button hover effect */
+.sec-1-circle-btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* section 1 ends */
+
+
+
+
+
+
+
+
+
+
+/* section 2 starts  */
+
+/* Section 2 background color styling */
+.sec-2-background-color {
+    background-color: #ED452B;
+    color: #FFDAB9;
+}
+
+/* Logo positioning and size */
+.sec-2-logo-postion img {
+    width: 15%;
+}
+
+/* Row container styling */
+.sec-2-container-row {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+/* Text container styling */
+.sec-2-text-container {
+    width: 65%;
+    margin-left: 5%;
+}
+
+/* Image container styling */
+.sec-2-image-container {
+    width: 35%;
+    overflow: hidden;
+}
+
+/* Image styling */
+.sec-2-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Headline text styling */
+.sec-2-headline-text {
+    margin-top: 5%;
+}
+
+/* Headline H1 styling */
+.sec-2-headline-text h1 {
+    font-size: 3.8em;
+    color: #FFDAB9;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    text-align: center;
+}
+
+/* Headline P styling */
+.sec-2-headline-text p {
+    color: #FBEC9D;
+}
+
+/* Circle button styling */
+.sec-2-circle-btn {
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    font-size: 16px;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: #ED452B;
+    border: 2px solid white;
+}
+
+/* Paragraph positioning and font size */
+.sec-2-p-postion {
+    margin: 2.5%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Button hover effect */
+.sec-2-circle-btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+/* section 2 ends */
+
+
+
+
+
+
+
+/* section 3 starts */
+
+/* Background color and text color styling for section 3 */
+.sec-3-background {
+    background-color: #FBEC9D;
+    color: #ED452B;
+}
+
+/* Container and row styling for better alignment and positioning */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Image styling for size and spacing */
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+/* Text square styling for size, background color, alignment, and spacing */
+.text-square {
+    width: 100px;
+    height: 100px;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+/* section 3 ends */
+
+
+
+
+
+
