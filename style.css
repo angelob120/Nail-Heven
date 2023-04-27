@@ -194,46 +194,81 @@
 
 
 
-
 /* section 3 starts */
 
 /* Background color and text color styling for section 3 */
 .sec-3-background {
-    background-color: #FBEC9D;
+    background-color: #FFDAB9;
     color: #ED452B;
 }
 
+/* Headline position and styling */
+.sec-3-headline-postion {
+    margin-left: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sec-3-headline-postion h1 {
+    font-size: 4em;
+}
+
 /* Container and row styling for better alignment and positioning */
-.container {
+.sec-3-container {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-bottom: 5%;
 }
 
-.row {
+.sec-3-row {
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 
-/* Image styling for size and spacing */
-.image {
-    width: 100px;
-    height: 100px;
+/* Image styling for size, spacing, and curved edges */
+.sec-3-row-image {
+    width: 50%;
+    height: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     object-fit: cover;
     margin: 0 10px;
+    border-radius: 25px;
 }
 
-/* Text square styling for size, background color, alignment, and spacing */
-.text-square {
-    width: 100px;
-    height: 100px;
-    background-color: #f0f0f0;
-    display: flex;
+/* Text square styling for size, background color, alignment, spacing, and curved edges */
+.sec-3-text-square-1, .sec-3-text-square-2, .sec-3-text-square-3 {
+    width: 50%;
+    height: 20%;
+    background-color: #ED452B;
+    color: #FBEC9D;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 0 10px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 25px;
+}
+
+/* Headings and font styling for the text squares */
+.sec-3-text-square-1 h3, .sec-3-text-square-2 h3, .sec-3-text-square-3 h3 {
+    margin-top: 20%;
+}
+
+.sec-3-text-square-1 h1, .sec-3-text-square-2 h1, .sec-3-text-square-3 h1 {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    color: white;
+}
+
+.sec-3-text-square-1 h6, .sec-3-text-square-2 h6, .sec-3-text-square-3 h6 {
+    margin-bottom: 20%;
+    font-size: 1.5em;
 }
 
 /* section 3 ends */
@@ -243,3 +278,49 @@
 
 
 
+/* Section 4 starts */
+
+/* Main container styling */
+.sec-4-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #ED452B; /* Pink background */
+    overflow: hidden;
+}
+
+/* Text container styling */
+.sec-4-text-container {
+    width: 50%;
+    padding-left: 20px;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2em;
+    color: #FBEC9D;
+}
+
+/* Image container styling */
+.sec-4-image-container {
+    width: 50%;
+    overflow: hidden;
+}
+
+/* Image styling */
+.sec-4-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text background styling */
+.sec-4-text-bg{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+}
+
+/* Section 4 ends */
