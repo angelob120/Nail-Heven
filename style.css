@@ -249,7 +249,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0 10px;
     object-fit: cover;
     margin: 0 10px;
     border-radius: 25px;
@@ -277,20 +276,20 @@
 
 
 
-
 /* Section 4 starts */
 
 /* Main container styling */
 .sec-4-container {
     display: flex;
+    flex-direction: row;
     width: 100%;
     height: auto;
     background-color: #ED452B; /* Pink background */
     overflow: hidden;
-}
-
-/* Text container styling */
-.sec-4-text-container {
+  }
+  
+  /* Text container styling */
+  .sec-4-text-container {
     width: 50%;
     padding-left: 20px;
     float: left;
@@ -298,29 +297,96 @@
     margin-top: 5%;
     font-size: 2em;
     color: #FBEC9D;
-}
-
-/* Image container styling */
-.sec-4-image-container {
+  }
+  
+  /* Image container styling */
+  .sec-4-image-container {
     width: 50%;
     overflow: hidden;
-}
-
-/* Image styling */
-.sec-4-image-container img {
+  }
+  
+  /* Image styling */
+  .sec-4-image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-/* Text background styling */
-.sec-4-text-bg{
-    background-color: #f0f0f0;
-    padding: 20px;
-    margin-bottom: 20px;
+  }
+  
+  /* Section 4 Container */
+  .sec-4-container-row {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column; /* Updated to 'column' for stacking */
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Text Square Styling */
+  .sec-4-text-square-1, .sec-4-text-square-2, .sec-4-text-square-3 {
+    background-color: white;
+    padding: 2.5% 10%;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 200px; /* Adjust the width as needed */
-    height: 200px; /* Adjust the height as needed */
+    margin-bottom: 20px;
+    color: black;
+    font-size: 0.9em;
+  }
+  
+  /* Last square without bottom margin */
+  .sec-4-text-square-3 {
+    margin-bottom: 0;
+  }
+
+  
+  
+  /* Section 4 ends */
+
+
+/* Section 5 starts */
+
+/* Container styling */
+.sec-5{
+    background-color: #FBEC9D;
+    color: #ED452B;
 }
 
-/* Section 4 ends */
+.sec-5-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Row container styling */
+  .sec-5-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  /* Text container styling */
+  .sec-5-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Header text styling */
+  .sec-5-text h1 {
+    margin-bottom: 10px;
+  }
+  
+  /* Section 5 ends */
+  
+  
+  
