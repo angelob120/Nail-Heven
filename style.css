@@ -353,8 +353,18 @@
 
 /* Container styling */
 .sec-5{
-    background-color: #FBEC9D;
+    background-color: #FFDAB9;
     color: #ED452B;
+}
+
+.sec-5-header-text-postion{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sec-5-header-text-postion h1{
+    font-size: 3.5em;
 }
 
 .sec-5-container {
@@ -362,6 +372,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2.5%;
   }
   
   /* Row container styling */
@@ -379,14 +390,128 @@
     align-items: center;
     text-align: center;
     padding: 20px;
+    width: 30%;
   }
   
   /* Header text styling */
   .sec-5-text h1 {
-    margin-bottom: 10px;
+    font-size: 2em;
+  }
+
+    /* Header text styling */
+  .sec-5-text p {
+    font-size: 1.4em;
+  }
+
+    .sec-5-text h6 {
+        margin-top: 2.5%;
+    font-size: 1.5em;
   }
   
   /* Section 5 ends */
   
   
-  
+
+/* Section 6 starts */
+
+/* Container with background image */
+/* Set up the container for section 6 with a background image and positioning */
+.sec-6-container {
+background-image: url("section 6 background .png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.3); /* Adjust the opacity as needed */
+}
+
+/* Text box styling /
+/* Style the text box within section 6 */
+.sec-6-text-box {
+background-color: #ED452B; /* Adjust the opacity as needed */
+width: 70%; /* Adjust the width as needed */
+height: auto; /* Adjust the height as needed */
+border-radius: 50px; /* Adjust the border radius as needed */
+margin-top: 15%;
+margin-bottom: 10%;
+margin-left: 10%;
+color: #FBEC9D;
+margin-right: 10%;
+}
+
+/* Style the h1 elements within the text box */
+.sec-6-text-box h1{
+margin: 0 20%;
+font-size: 3em;
+}
+
+/* Style the paragraph elements within the text box */
+.sec-6-text-box p{
+margin: 7.5%;
+font-size: 1.5em;
+}
+
+/* Section 6 ends */
+
+
+
+/* section 7 start /
+/ Set the background color and text color for section 7 */
+.sec-7 {
+    background-color: #ED452B;
+    color: #FFDAB9;
+    }
+    
+    /* Style the header text in section 7 */
+    .sec-7-header-text {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 2em;
+    font: 900;
+    }
+    
+    /* Ensure h1 elements within the header text are bold */
+    .sec-7-header-text h1 {
+    font: 900;
+    }
+    
+    /* Set the style of emphasized text within the header text */
+    .sec-7-header-text em {
+    text-decoration: none;
+    font-style: normal;
+    color: #FBEC9D;
+    }
+    
+    /* Section 7 Container /
+    / Configure the layout and sizing of the container row */
+    .sec-7-container-row {
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column; /* Updated to 'column' for stacking */
+    height: auto;
+    width: 50%;
+    margin-left: 5%;
+    }
+    
+    /* Text Square Styling /
+    / Apply common styles to all text squares within section 7 */
+    .sec-7-text-square-1, .sec-7-text-square-2, .sec-7-text-square-3 {
+    background-color: white;
+    text-align: center;
+    object-fit: cover;
+    text-align: left;
+    margin: 0 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    color: black;
+    font-size: 1.5em;
+    color: #ED452B;
+    }
+    
+    /* section 7 ends */
