@@ -91,6 +91,74 @@
 /* section 1 ends */
 
 
+/* section 1 media */
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-1-headline-text h1 {
+      font-size: 3.5em;
+    }
+  
+    .sec-1-headline-text p {
+      font-size: 1.8em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 768px) {
+    .sec-1-container-row {
+      flex-direction: column;
+    }
+  
+    .sec-1-text-container {
+      width: 100%;
+      padding-left: 30px;
+      float: none;
+    }
+  
+    .sec-1-image-container {
+      width: 100%;
+    }
+  
+    .sec-1-headline-text h1 {
+      font-size: 3em;
+    }
+  
+    .sec-1-headline-text p {
+      font-size: 1.5em;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 375px) {
+    .sec-1-logo-postion img {
+      width: 25%;
+    }
+  
+    .sec-1-headline-text {
+      margin-top: 10%;
+    }
+  
+    .sec-1-headline-text h1 {
+      font-size: 2em;
+    }
+  
+    .sec-1-headline-text p {
+      font-size: 1.2em;
+    }
+  
+    .sec-1-circle-btn {
+      font-size: 14px;
+      padding: 8px 20px;
+    }
+  }
+  
+/* section 1 media */
+
 
 
 
@@ -190,6 +258,72 @@
 /* section 2 ends */
 
 
+/* section 2 media  */
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-2-headline-text h1 {
+      font-size: 3.2em;
+    }
+  
+    .sec-2-p-postion {
+      font-size: 1.3em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 768px) {
+    .sec-2-container-row {
+      flex-direction: column;
+    }
+  
+    .sec-2-image-container {
+      width: 100%;
+    }
+  
+    .sec-2-text-container {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .sec-2-headline-text h1 {
+      font-size: 2.8em;
+    }
+  
+    .sec-2-p-postion {
+      font-size: 1.2em;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 375px) {
+    .sec-2-logo-postion img {
+      width: 25%;
+    }
+  
+    .sec-2-headline-text {
+      margin-top: 10%;
+    }
+  
+    .sec-2-headline-text h1 {
+      font-size: 2em;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .sec-2-p-postion {
+      font-size: 1em;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+  
+
+
 
 
 
@@ -272,6 +406,87 @@
 
 /* section 3 ends */
 
+/* section 3 media */
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* Add your desired styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-3-headline-postion h1 {
+      font-size: 3.2em;
+    }
+  
+    .sec-3-text-square-1 h6, .sec-3-text-square-2 h6, .sec-3-text-square-3 h6 {
+      font-size: 1.3em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 768px) {
+    .sec-3-container {
+      align-items: center;
+    }
+  
+    .sec-3-row {
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+  
+    .sec-3-row-image {
+      width: 60%;
+      height: auto;
+      margin: 10px auto;
+    }
+  
+    .sec-3-text-square-1, .sec-3-text-square-2, .sec-3-text-square-3 {
+      width: 90%;
+      height: auto;
+      margin: 10px auto;
+    }
+
+    /* h3 text */
+    .sec-3-row h3 {
+        font-size: 3em;
+      }
+
+    /* h1 text */
+    .sec-3-row h1 {
+        font-size: 4em;
+      }
+
+    /* h6 text */
+    .sec-3-row h6 {
+        font-size: 2em;
+    }
+  
+    .sec-3-headline-postion h1 {
+      font-size: 2.8em;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 400px) {
+        /* h3 text */
+        .sec-3-row h3 {
+            font-size: 1.5em;
+          }
+    
+        /* h1 text */
+        .sec-3-row h1 {
+            font-size: 2.5em;
+          }
+    
+        /* h6 text */
+        .sec-3-row h6 {
+            font-size: 0.8em;
+        }
+  }
+  
+  
+/* section 3 media */
+
 
 
 
@@ -349,6 +564,59 @@
   /* Section 4 ends */
 
 
+  /* section 4 media  */
+  /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* Add your desired styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-4-text-container {
+      font-size: 1.6em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 768px) {
+    .sec-4-container {
+      flex-direction: column;
+    }
+  
+    .sec-4-text-container {
+      width: 100%;
+      font-size: 1.4em;
+    }
+  
+    .sec-4-image-container {
+      width: 100%;
+    }
+  
+    .sec-4-container-row {
+      flex-direction: column;
+      margin-bottom: 10%;
+    }
+  
+    .sec-4-text-square-1, .sec-4-text-square-2, .sec-4-text-square-3 {
+      margin-bottom: 10px;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 375px) {
+    .sec-4-text-container {
+      font-size: 1.2em;
+    }
+  
+    .sec-4-text-square-1, .sec-4-text-square-2, .sec-4-text-square-3 {
+      padding: 10px 20px;
+      font-size: 0.8em;
+    }
+  }
+  
+  /* section 4 media  */
+
+
 /* Section 5 starts */
 
 /* Container styling */
@@ -409,6 +677,80 @@
   }
   
   /* Section 5 ends */
+
+
+/* section 5 media */
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* Add your desired styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-5-header-text-postion h1 {
+      font-size: 3em;
+    }
+  
+    .sec-5-text p {
+      font-size: 1.2em;
+    }
+  
+    .sec-5-text h6 {
+      font-size: 1.3em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 768px) {
+    .sec-5-header-text-postion h1 {
+        font-size: 2.5em;
+      }
+    .sec-5-header-text-postion {
+      align-items: center;
+      align-content: center;
+      text-align: center;
+    }
+  
+    .sec-5-row {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+  
+    .sec-5-text {
+      width: 45%;
+      margin-bottom: 20px;
+    }
+  
+    .sec-5-text p {
+      font-size: 1.5em;
+    }
+  
+    .sec-5-text h6 {
+      font-size: 1.1em;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 450px) {
+    .sec-5-header-text-postion h1 {
+      font-size: 2em;
+    }
+  
+    .sec-5-text {
+      width: 100%;
+    }
+  
+    .sec-5-text p {
+      font-size: 0.9em;
+    }
+  
+    .sec-5-text h6 {
+      font-size: 1em;
+    }
+  }
+  
+/* section 5 media */
+
   
   
 
@@ -458,6 +800,59 @@ font-size: 1.5em;
 
 /* Section 6 ends */
 
+/* section 6 media */
+/* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    .sec-6-text-box h1 {
+        font-size: 3.5em;
+      }
+      .sec-6-text-box p {
+        font-size: 2.2em;
+      }
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-6-text-box h1 {
+      font-size: 3em;
+    }
+    .sec-6-text-box p {
+      font-size: 1.8em;
+    }
+  }
+  
+  /* Media query for 850px screen size */
+  @media screen and (max-width: 850px) {
+    .sec-6-text-box {
+      width: 85%;
+    }
+    .sec-6-text-box h1 {
+      font-size: 2em;
+      margin: 0 10%;
+    }
+    .sec-6-text-box p {
+      font-size: 1em;
+      margin: 5%;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 375px) {
+    .sec-6-text-box {
+      width: 95%;
+    }
+    .sec-6-text-box h1 {
+      font-size: 1.5em;
+      margin: 0 5%;
+    }
+    .sec-6-text-box p {
+      font-size: 0.9em;
+      margin: 2.5%;
+    }
+  }
+  
+/* section 6 media  */
+
 
 
 /* section 7 start /
@@ -496,6 +891,7 @@ font-size: 1.5em;
     height: auto;
     width: 50%;
     margin-left: 5%;
+    margin-bottom: 5%;
     }
     
     /* Text Square Styling /
@@ -515,3 +911,51 @@ font-size: 1.5em;
     }
     
     /* section 7 ends */
+
+
+    /* section 7 media */
+    /* Media query for 1920px screen size */
+@media screen and (max-width: 1920px) {
+    /* Add your desired styles for 1920px screen size here */
+  }
+  
+  /* Media query for 1280px screen size */
+  @media screen and (max-width: 1280px) {
+    .sec-7-header-text {
+      font-size: 1.5em;
+    }
+    .sec-7-text-square-1, .sec-7-text-square-2, .sec-7-text-square-3 {
+      font-size: 1.2em;
+    }
+  }
+  
+  /* Media query for 768px screen size */
+  @media screen and (max-width: 768px) {
+    .sec-7-header-text {
+      font-size: 1.2em;
+    }
+    .sec-7-container-row {
+      width: 90%;
+    }
+    .sec-7-text-square-1, .sec-7-text-square-2, .sec-7-text-square-3 {
+      font-size: 1em;
+      padding: 15px 30px;
+    }
+  }
+  
+  /* Media query for 375px screen size */
+  @media screen and (max-width: 375px) {
+    .sec-7-header-text {
+      font-size: 1em;
+    }
+    .sec-7-container-row {
+      width: 95%;
+    }
+    .sec-7-text-square-1, .sec-7-text-square-2, .sec-7-text-square-3 {
+      font-size: 0.9em;
+      padding: 10px 20px;
+    }
+  }
+  
+
+    /* section 7 media */
