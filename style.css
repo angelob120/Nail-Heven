@@ -409,7 +409,7 @@
 /* section 3 media */
 /* Media query for 1920px screen size */
 @media screen and (max-width: 1920px) {
-    /* Add your desired styles for 1920px screen size here */
+    /* Styles for 1920px screen size here */
   }
   
   /* Media query for 1280px screen size */
@@ -567,7 +567,7 @@
   /* section 4 media  */
   /* Media query for 1920px screen size */
 @media screen and (max-width: 1920px) {
-    /* Add your desired styles for 1920px screen size here */
+    /* Styles for 1920px screen size here */
   }
   
   /* Media query for 1280px screen size */
@@ -682,7 +682,7 @@
 /* section 5 media */
 /* Media query for 1920px screen size */
 @media screen and (max-width: 1920px) {
-    /* Add your desired styles for 1920px screen size here */
+    /* styles for 1920px screen size here */
   }
   
   /* Media query for 1280px screen size */
@@ -916,7 +916,7 @@ font-size: 1.5em;
     /* section 7 media */
     /* Media query for 1920px screen size */
 @media screen and (max-width: 1920px) {
-    /* Add your desired styles for 1920px screen size here */
+    /* styles for 1920px screen size here */
   }
   
   /* Media query for 1280px screen size */
