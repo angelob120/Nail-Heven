@@ -5,6 +5,27 @@
     overflow-x: hidden;
 }
 
+#backToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 50%;
+  color: white;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backToTopBtn:hover {
+  background-color: #FFDAB9;
+}
+
+
 /* Pink row styling */
 .sec-1-background-color {
     background-color: #FFDAB9;
